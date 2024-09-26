@@ -48,7 +48,7 @@ class SearcherPane extends Component {
       module,
       del,
       title = "search.title",
-      split = 8,
+      split = 5,
       filterPane,
       filters,
       resultsPane = null,

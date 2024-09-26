@@ -489,7 +489,7 @@ class Searcher extends Component {
               <ProgressOrError error={errorItems} />
             ) : (
               <Fragment>
-                <Grid container item alignItems="center" xs={8} className={classes.paperHeader}>
+                <Grid container item alignItems="center" xs={5} className={classes.paperHeader}>
                   <Grid item xs={8} className={classes.paperHeaderTitle}>
                     {!fetchingItems ? tableTitle : formatMessage(intl, "core", "table.resultsLoading")}
                   </Grid>
@@ -501,7 +501,7 @@ class Searcher extends Component {
                     />
                   </Grid>
                 </Grid>
-                <Grid container alignItems="center" item xs={4} className={classes.paperHeader}>
+                <Grid container alignItems="center" item xs={7} className={classes.paperHeader}>
                   {fetchedItems && (
                     <Grid container direction="row" justify="flex-end" className={classes.paperHeaderAction}>
                       <StyledSelectionMenu
